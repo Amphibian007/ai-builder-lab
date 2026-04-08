@@ -1,0 +1,40 @@
+# --- Python & Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.flaskenv
+
+# --- AI & Large Language Models ---
+# Prevents large model weights from being pushed to GitHub
+models/
+.ollama/
+*.bin
+*.gguf
+*.onnx
+*.weights
+
+# --- Database & Storage ---
+# For PostgreSQL or local vector databases
+*.log
+logs/
+postgres_data/
+.database/
+*.sqlite
+
+# --- macOS Specific ---
+.DS_Store
+.DS_Store?
+._*
+
+# --- VS Code ---
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# --- Submodules ---
+# We keep the folder pointers, but ignore local changes inside if not committed
+# projects/
