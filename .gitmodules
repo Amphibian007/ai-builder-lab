@@ -1,0 +1,3 @@
+[submodule "projects/02-explain-like-i-am-5"]
+	path = projects/02-explain-like-i-am-5
+	url = https://github.com/Amphibian007/02-explain-like-i-am-5.git
