@@ -1,0 +1,44 @@
+# --- Python & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+.flaskenv
+
+# --- AI & LLM Specific (Ollama / Local Models) ---
+# Do not track large model weights or local knowledge base caches
+models/
+.ollama/
+*.bin
+*.onnx
+*.gguf
+# If you store your 50+ markdown files in a specific 'data' folder
+# but don't want them in the main repo, uncomment the next line:
+# data/knowledge_base/
+
+# --- Database & Logs (PostgreSQL / Vector DBs) ---
+*.log
+logs/
+.database/
+postgres_data/
+
+# --- OS & Editor Specific ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# --- Submodule Placeholders ---
+# We want the folders, but Git handles the contents via .gitmodules
+# If you ever have empty folders you want to keep:
+# !projects/.gitkeep
